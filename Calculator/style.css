@@ -1,0 +1,42 @@
+.text-center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cal{
+    background-color: black;
+    max-width: 400px;
+    border: 3px solid grey;
+    border-radius: 20px;
+}
+.row input{
+    width: 220px;
+    align-items: center;
+    padding: 10px;
+    border:  2px solid grey;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.but{
+    min-width: 35px;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    background-color: gray;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clear{
+    background-color: yellow;
+    color: red;
+}
+.green{
+    background-color: rgb(42, 209, 42);
+    color: black;
+}
